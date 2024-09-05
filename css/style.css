@@ -207,3 +207,11 @@ ul li {
     height: 100%;
     overflow: hidden;
 }
+
+@media (max-width: 480px) {
+    .header__content {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+}
